@@ -1,0 +1,19 @@
+pluginManagement {
+    ext {
+        koin_version = '3.1.6'
+    }
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "koinlearning"
+include ':app'
